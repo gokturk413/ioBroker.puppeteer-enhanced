@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "puppeteer-enhanced",
-    "version": "0.5.4",
+    "version": "0.5.5",
     "news": {
+      "0.5.5": {
+        "en": "Updated minimum Node.js requirement to 22.12.0 and upgraded tsconfig node22 rules",
+        "de": "Mindestanforderung für Node.js auf 22.12.0 aktualisiert und tsconfig node22-Regeln aktualisiert",
+        "ru": "Минимальное требование к Node.js обновлено до 22.12.0, обновлены правила tsconfig node22",
+        "pt": "Requisito mínimo do Node.js atualizado para 22.12.0 e regras tsconfig node22 atualizadas",
+        "nl": "Minimale Node.js-vereiste bijgewerkt naar 22.12.0 en tsconfig node22-regels bijgewerkt",
+        "fr": "Exigence minimale Node.js mise à jour vers 22.12.0 et règles tsconfig node22 mises à jour",
+        "it": "Requisito minimo Node.js aggiornato a 22.12.0 e regole tsconfig node22 aggiornate",
+        "es": "Requisito mínimo de Node.js actualizado a 22.12.0 y reglas de tsconfig node22 actualizadas",
+        "pl": "Zaktualizowano minimalne wymaganie Node.js do 22.12.0 i zaktualizowano reguły tsconfig node22",
+        "uk": "Мінімальні вимоги do Node.js оновлено до 22.12.0, оновлено правила tsconfig node22",
+        "zh-cn": "最低 Node.js 要求更新为 22.12.0，并更新了 tsconfig node22 规则"
+      },
       "0.5.4": {
         "en": "Enabled trusted publishing, upgraded to Node.js 22 minimum, updated all dependencies",
         "de": "Vertrauenswürdiges Veröffentlichen aktiviert, auf Node.js 22 Minimum aktualisiert, alle Abhängigkeiten aktualisiert",
