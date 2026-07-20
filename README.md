@@ -425,6 +425,11 @@ setState('puppeteer-enhanced.0.url', 'https://www.google.com', false); // Trigge
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### 0.5.7 (2026-07-20)
+* Removed redundant mocha devDependency (provided transitively by @iobroker/testing) — fixes repochecker E0063
+* Removed unpublished 0.5.5 entry from io-package.json news — fixes repochecker E2004
+* Regenerated package-lock.json with mocha hoisted to top-level
+
 ### 0.5.6 (2026-07-20)
 * Re-added mocha to devDependencies for test runner binary execution in CI
 
