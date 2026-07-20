@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "Aanvullende argumenten voor het Puppeteerproces",
+  "useExternalBrowser": "Externe browser gebruiken",
+  "executablePath": "Pad naar de externe browser",
+  "webLoginCredentials": "ioBroker Web Login Gegevens",
+  "webUsername": "Gebruikersnaam voor ioBroker webinterface",
+  "webPassword": "Wachtwoord voor ioBroker webinterface"
+}

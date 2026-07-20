@@ -15,83 +15,6 @@
         "pl": "Dodano funkcję eksportu PDF\nDodano automatyczne wykrywanie i uwierzytelnianie logowania do sieci ioBroker\nDodano obsługę danych logowania",
         "uk": "Додано функцію експорту PDF\nДодано автоматичне виявлення та автентифікацію веб-входу ioBroker\nДодано підтримку облікових даних входу",
         "zh-cn": "添加 PDF 导出功能\n添加 ioBroker Web 登录自动检测和身份验证\n添加登录凭据支持"
-      },
-      "0.4.0": {
-        "en": "updated puppeteer dependency\nallow to specify an external browser for puppeteer",
-        "de": "aktualisierte puppeteer abhängigkeit\neinen externen browser für puppenspieler angeben",
-        "ru": "обновленная зависимость марионеток\nразрешить указать внешний браузер для марионетки",
-        "pt": "dependência puppeteer atualizada\npermitir especificar um navegador externo para puppeteer",
-        "nl": "bijgewerkt puppeteer afhankelijkheid\nstaat toe om een externe browser voor puppeter op te geven",
-        "fr": "mise à jour de la dépendance des marionnettistes\npermettre de spécifier un navigateur externe pour marionnettiste",
-        "it": "dipendenza del burattino aggiornata\nconsentire di specificare un browser esterno per burattinaio",
-        "es": "dependencia actualizada del titiritero\npermite especificar un navegador externo para titiritero",
-        "pl": "zaktualizowana zależność lalkarza\npozwala na określenie zewnętrznej przeglądarki dla lalkarza",
-        "uk": "оновлена залежність цуценя\nдозволяє вказати зовнішній браузер для цуценя",
-        "zh-cn": "更新的傀儡依赖\n允许为傀儡指定外部浏览器"
-      },
-      "0.3.0": {
-        "en": "allowed to specify additional arguments for the puppeteer process\nupdated puppeteer dependency",
-        "de": "erlaubt, zusätzliche argumente für den puppenspieler-prozess anzugeben\naktualisierte puppeteer abhängigkeit",
-        "ru": "разрешено указывать дополнительные аргументы для марионеточного процесса\nобновленная зависимость марионеток",
-        "pt": "permitido especificar argumentos adicionais para o processo de puppeteer\ndependência puppeteer atualizada",
-        "nl": "mag aanvullende argumenten voor het puppeteerproces specificeren\nbijgewerkt puppeteer afhankelijkheid",
-        "fr": "permis de spécifier des arguments supplémentaires pour le processus marionnettiste\nmise à jour de la dépendance des marionnettistes",
-        "it": "permesso di specificare ulteriori argomenti per il processo di burattinaio\ndipendenza del burattino aggiornata",
-        "es": "permite especificar argumentos adicionales para el proceso del titiritero\ndependencia actualizada del titiritero",
-        "pl": "dozwolone określenie dodatkowych argumentów dla procesu lalkarza\nzaktualizowana zależność lalkarza",
-        "uk": "дозволило вказати додаткові аргументи для процесу цуценя\nоновлена залежність цуценя",
-        "zh-cn": "允许指定傀儡进程的其他参数\n更新的傀儡依赖"
-      },
-      "0.2.8": {
-        "en": "update puppeteer dependency",
-        "de": "aktualisierung puppeteer abhängigkeit",
-        "ru": "обновление марионеточной зависимости",
-        "pt": "update puppeteer dependência",
-        "nl": "puppeteerafhankelijkheid bijwerken",
-        "fr": "mettre à jour la dépendance des marionnettistes",
-        "it": "aggiornamento dipendenze del burattino",
-        "es": "actualización de la dependencia del titiritero",
-        "pl": "aktualizacja zależności lalkarz",
-        "uk": "оновлення залежності цуценя",
-        "zh-cn": "更新傀儡依赖"
-      },
-      "0.2.7": {
-        "en": "update puppeteer dependency",
-        "de": "aktualisierung puppeteer abhängigkeit",
-        "ru": "обновить зависимость puppeteer",
-        "pt": "update puppeteer dependência",
-        "nl": "vertaling:",
-        "fr": "mettre à jour la dépendance des marionnettistes",
-        "it": "aggiornamento dipendenze del burattino",
-        "es": "actualización de la dependencia del titiritero",
-        "pl": "aktualizacja marionetki",
-        "uk": "оновлення залежності цуценя",
-        "zh-cn": "二. 重新依赖"
-      },
-      "0.2.6": {
-        "en": "we now close the page also when screenshot taken via message",
-        "de": "wir schließen jetzt die seite auch, wenn screenshot über nachricht aufgenommen",
-        "ru": "мы теперь закрываем страницу также когда скриншот сделанный через сообщение",
-        "pt": "nós agora fechamos a página também quando a captura de tela tirada através da mensagem",
-        "nl": "we sluiten de pagina ook als de screenshot via de boodschap",
-        "fr": "nous fermons maintenant la page aussi quand capture d'écran prise via message",
-        "it": "ora chiudiamo la pagina anche quando screenshot preso tramite messaggio",
-        "es": "ahora cerramos la página también cuando capturamos la pantalla a través del mensaje",
-        "pl": "zbliża się również do ekranu, który został wykonany za pośrednictwem wiadomości",
-        "zh-cn": "我们现在关闭该页。"
-      },
-      "0.2.5": {
-        "en": "we have optimized the viewport option",
-        "de": "wir haben die option viewport optimiert",
-        "ru": "мы оптимизировали опцию viewport",
-        "pt": "nós temos otimizado a opção viewport",
-        "nl": "we hebben de uitzichtsoptie",
-        "fr": "nous avons optimisé l'option viewport",
-        "it": "abbiamo ottimizzato l'opzione viewport",
-        "es": "hemos optimizado la opción viewport",
-        "pl": "zoptymalizowano opcję teleportu",
-        "uk": "ми оптимізували опцію viewport",
-        "zh-cn": "我们最佳地利用了看法。"
       }
     },
     "titleLang": {
@@ -124,7 +47,6 @@
       "gokturk413 <gokturk413@gmail.com>"
     ],
     "keywords": [
-      "ioBroker",
       "screenshots",
       "visualization",
       "browser",
@@ -149,7 +71,7 @@
     "dataSource": "poll",
     "globalDependencies": [
       {
-        "admin": ">=7.6.17"
+        "admin": ">=7.6.20"
       }
     ],
     "dependencies": [
@@ -204,17 +126,17 @@
     "adminTab": {
       "singleton": true
     },
-    "protectedNative": [
-      "webPassword"
-    ],
-    "encryptedNative": [
-      "webPassword"
-    ],
     "licenseInformation": {
       "type": "free",
       "license": "MIT"
     }
   },
+  "protectedNative": [
+    "webPassword"
+  ],
+  "encryptedNative": [
+    "webPassword"
+  ],
   "native": {
     "additionalArgs": [],
     "useExternalBrowser": false,

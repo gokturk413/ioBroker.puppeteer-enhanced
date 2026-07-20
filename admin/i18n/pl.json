@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "Dodatkowe argumenty przekazane do procesu Puppeteer",
+  "useExternalBrowser": "Korzystanie z zewnętrznej przeglądarki",
+  "executablePath": "Ścieżka do zewnętrznej przeglądarki",
+  "webLoginCredentials": "Dane logowania do ioBroker Web",
+  "webUsername": "Nazwa użytkownika dla interfejsu webowego ioBroker",
+  "webPassword": "Hasło dla interfejsu webowego ioBroker"
+}

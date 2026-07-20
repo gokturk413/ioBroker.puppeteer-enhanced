@@ -295,6 +295,8 @@ sendTo('puppeteer.0', 'pdf', { url: 'https://www.google.com',
 ### 0.1.0 (2022-05-16)
 * (foxriver76) initial release
 
+See [older changelog entries](CHANGELOG_OLD.md) for previous releases.
+
 ## License
 MIT License
 

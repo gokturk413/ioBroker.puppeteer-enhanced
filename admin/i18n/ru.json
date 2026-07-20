@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "Дополнительные аргументы, переданные в процесс Puppeteer",
+  "useExternalBrowser": "Используйте внешний браузер",
+  "executablePath": "Путь к внешнему браузеру",
+  "webLoginCredentials": "Учетные данные для входа в ioBroker Web",
+  "webUsername": "Имя пользователя для веб-интерфейса ioBroker",
+  "webPassword": "Пароль для веб-интерфейса ioBroker"
+}

@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "Додаткові аргументи передані до процесу цуценя",
+  "useExternalBrowser": "Використовуйте зовнішній браузер",
+  "executablePath": "Шлях до зовнішнього браузера",
+  "webLoginCredentials": "Облікові дані входу ioBroker Web",
+  "webUsername": "Ім'я користувача для веб-інтерфейсу ioBroker",
+  "webPassword": "Пароль для веб-інтерфейсу ioBroker"
+}

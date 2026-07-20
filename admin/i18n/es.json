@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "Otros argumentos pasaron al proceso Puppeteer",
+  "useExternalBrowser": "Utilizar un navegador externo",
+  "executablePath": "Ruta al navegador externo",
+  "webLoginCredentials": "Credenciales de inicio de sesión web de ioBroker",
+  "webUsername": "Nombre de usuario para la interfaz web ioBroker",
+  "webPassword": "Contraseña para la interfaz web ioBroker"
+}

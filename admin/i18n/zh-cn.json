@@ -1,0 +1,8 @@
+{
+  "additionalLaunchArgs": "向Puppeteer进程提出的其他论点",
+  "useExternalBrowser": "使用外部浏览器",
+  "executablePath": "外部浏览器的路径",
+  "webLoginCredentials": "ioBroker Web 登录凭据",
+  "webUsername": "ioBroker Web 界面的用户名",
+  "webPassword": "ioBroker Web 界面的密码"
+}

@@ -1,0 +1,21 @@
+# Configure here which dependency updates should be merged automatically.
+- match:
+    dependency_type: production
+    update_type: "semver:patch"
+- match:
+    dependency_type: production
+    update_type: "security:minor"
+- match:
+    dependency_type: production
+    update_type: "semver:major"
+    package_name: "actions/*"
+- match:
+    dependency_type: production
+    update_type: "semver:major"
+    package_name: "ioBroker/*"
+- match:
+    dependency_type: development
+    update_type: "semver:minor"
+- match:
+    dependency_type: development
+    update_type: "semver:major"
