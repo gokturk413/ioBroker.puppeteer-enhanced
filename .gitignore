@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 yarn.lock
 
 # Build output (keep build/ for ioBroker adapter)
@@ -9,7 +8,8 @@ dist/
 *.tsbuildinfo
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -42,3 +42,5 @@ temp/
 
 # ioBroker specific
 *.code-workspace
+.commitinfo
+

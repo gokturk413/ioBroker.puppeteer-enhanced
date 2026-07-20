@@ -90,22 +90,10 @@
         "it": "abbiamo ottimizzato l'opzione viewport",
         "es": "hemos optimizado la opción viewport",
         "pl": "zoptymalizowano opcję teleportu",
+        "uk": "ми оптимізували опцію viewport",
         "zh-cn": "我们最佳地利用了看法。"
-      },
-      "0.2.4": {
-        "en": "allow settings viewport options\nthe default viewport is now the max resolution",
-        "de": "optionen für einstellungen anzeigen\nder standard-viewport ist jetzt die maximale auflösung",
-        "ru": "разрешить настройки viewport варианты\nviewport по умолчанию теперь максимальное разрешение",
-        "pt": "permitir opções de visualização de configurações\no viewport padrão é agora a resolução máxima",
-        "nl": "vertaling:\nhet betreffende uitzicht is nu de maximale oplossing",
-        "fr": "les options de visualisation des paramètres\nle viewport par défaut est maintenant la résolution max",
-        "it": "consentire impostazioni viewport opzioni\nla vista predefinita è ora la risoluzione massima",
-        "es": "permite opciones de configuración viewport\nel puerto de vista predeterminado es ahora la resolución máxima",
-        "pl": "pozwalać na użycie opcji widokowej\ndomyślny portal to obecnie maxową rozdzielczość",
-        "zh-cn": "允许环境选择\n现在,拖欠国是最高决议。"
       }
     },
-    "title": "Puppeteer",
     "titleLang": {
       "en": "Puppeteer",
       "de": "Puppenspieler",
@@ -116,6 +104,7 @@
       "it": "Burattinaio",
       "es": "Titiritero",
       "pl": "Lalkarz",
+      "uk": "Puppeteer",
       "zh-cn": "傀儡师"
     },
     "desc": {
@@ -128,12 +117,14 @@
       "it": "Browser headless per generare screenshot ed esportazioni PDF basati su Chrome",
       "es": "Navegador sin cabeza para generar capturas de pantalla y exportaciones PDF basado en Chrome",
       "pl": "Bezgłowa przeglądarka do generowania zrzutów ekranu i eksportów PDF w oparciu o Chrome",
+      "uk": "Безголовий браузер для створення скріншотів та експорту PDF на основі Chrome",
       "zh-cn": "基于 Chrome 生成截图和 PDF 导出的无头浏览器"
     },
     "authors": [
       "gokturk413 <gokturk413@gmail.com>"
     ],
     "keywords": [
+      "ioBroker",
       "screenshots",
       "visualization",
       "browser",
@@ -144,8 +135,8 @@
     "platform": "Javascript/Node.js",
     "icon": "puppeteer.png",
     "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/gokturk413/iobroker.puppeteer-enhanced/main/admin/puppeteer.png",
-    "readme": "https://github.com/gokturk413/iobroker.puppeteer-enhanced/blob/main/README.md",
+    "extIcon": "https://raw.githubusercontent.com/gokturk413/ioBroker.puppeteer-enhanced/main/admin/puppeteer.png",
+    "readme": "https://github.com/gokturk413/ioBroker.puppeteer-enhanced/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
     "adminUI": {
@@ -156,9 +147,14 @@
     "compact": true,
     "connectionType": "local",
     "dataSource": "poll",
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.17"
+      }
+    ],
     "dependencies": [
       {
-        "js-controller": ">=5.0.19"
+        "js-controller": ">=6.0.11"
       }
     ],
     "osDependencies": {
@@ -203,12 +199,17 @@
       ]
     },
     "tier": 2,
-    "main": "build/main.js",
     "nogit": true,
     "supportCustoms": false,
     "adminTab": {
       "singleton": true
     },
+    "protectedNative": [
+      "webPassword"
+    ],
+    "encryptedNative": [
+      "webPassword"
+    ],
     "licenseInformation": {
       "type": "free",
       "license": "MIT"
@@ -267,7 +268,7 @@
         "name": "Top position of the clip rectangle. Default value 0px",
         "type": "number",
         "read": true,
-        "write": true,
+        "write": false,
         "role": "value",
         "def": 0
       },
@@ -280,7 +281,7 @@
         "name": "Left position of the clip rectangle. Default value 0px",
         "type": "number",
         "read": true,
-        "write": true,
+        "write": false,
         "role": "value",
         "def": 0
       },
@@ -293,7 +294,7 @@
         "name": "Width of the clip rectangle.",
         "type": "number",
         "read": true,
-        "write": true,
+        "write": false,
         "role": "value"
       },
       "native": {}
@@ -305,7 +306,7 @@
         "name": "Height of the clip rectangle.",
         "type": "number",
         "read": true,
-        "write": true,
+        "write": false,
         "role": "value"
       },
       "native": {}
@@ -317,7 +318,7 @@
         "name": "Interval in ms to wait till the page will be rendered",
         "type": "number",
         "read": true,
-        "write": true,
+        "write": false,
         "role": "value.interval",
         "unit": "ms"
       },

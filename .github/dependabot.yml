@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "cron"
+    open-pull-requests-limit: 15
+    assignees:
+      - gokturk413
+    versioning-strategy: increase
+    cooldown:
+      default: 7
+    ignore:
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: "cron"
+    open-pull-requests-limit: 15
+    assignees:
+      - gokturk413
+    cooldown:
+      default: 7
