@@ -425,6 +425,12 @@ setState('puppeteer-enhanced.0.url', 'https://www.google.com', false); // Trigge
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### 0.5.4 (2026-07-20)
+* Enabled trusted publishing (removed npm-token from workflow)
+* Upgraded minimum Node.js requirement to 22
+* Updated all dependencies (puppeteer 25.x, typescript 7.x, rimraf 6.x)
+* Removed redundant eslint and mocha devDependencies
+
 ### 0.5.3 (2026-07-20)
 * Updated admin i18n translations, repository checker compatibility, and workflow build scripts
 
