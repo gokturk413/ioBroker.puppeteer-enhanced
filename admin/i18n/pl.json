@@ -4,5 +4,8 @@
   "executablePath": "Ścieżka do zewnętrznej przeglądarki",
   "webLoginCredentials": "Dane logowania do ioBroker Web",
   "webUsername": "Nazwa użytkownika dla interfejsu webowego ioBroker",
-  "webPassword": "Hasło dla interfejsu webowego ioBroker"
+  "webPassword": "Hasło dla interfejsu webowego ioBroker",
+  "admin": "admin",
+  "Argument": "Argument",
+  "/usr/bin/chromium-browser": "/usr/bin/chromium-browser"
 }

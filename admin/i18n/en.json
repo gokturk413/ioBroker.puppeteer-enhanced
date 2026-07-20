@@ -4,5 +4,8 @@
   "executablePath": "Path to the external browser",
   "webLoginCredentials": "ioBroker Web Login Credentials",
   "webUsername": "Username for ioBroker web interface",
-  "webPassword": "Password for ioBroker web interface"
+  "webPassword": "Password for ioBroker web interface",
+  "admin": "admin",
+  "Argument": "Argument",
+  "/usr/bin/chromium-browser": "/usr/bin/chromium-browser"
 }

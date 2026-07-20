@@ -4,5 +4,8 @@
   "executablePath": "外部浏览器的路径",
   "webLoginCredentials": "ioBroker Web 登录凭据",
   "webUsername": "ioBroker Web 界面的用户名",
-  "webPassword": "ioBroker Web 界面的密码"
+  "webPassword": "ioBroker Web 界面的密码",
+  "admin": "admin",
+  "Argument": "参数",
+  "/usr/bin/chromium-browser": "/usr/bin/chromium-browser"
 }
