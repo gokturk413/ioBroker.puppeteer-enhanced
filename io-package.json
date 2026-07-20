@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "puppeteer-enhanced",
-    "version": "0.5.6",
+    "version": "0.5.7",
     "news": {
+      "0.5.7": {
+        "en": "Removed redundant mocha devDependency (provided transitively by @iobroker/testing) and cleaned up changelog",
+        "de": "Redundante mocha-devDependency entfernt (transitiv über @iobroker/testing bereitgestellt) und Changelog bereinigt",
+        "ru": "Удалена избыточная зависимость mocha (предоставляется транзитивно через @iobroker/testing), очищен список изменений",
+        "pt": "Removida a devDependency redundante mocha (fornecida transitivamente por @iobroker/testing) e changelog limpo",
+        "nl": "Overbodige mocha-devDependency verwijderd (transitief geleverd door @iobroker/testing) en changelog opgeschoond",
+        "fr": "Suppression de la devDependency mocha redondante (fournie de manière transitive par @iobroker/testing) et nettoyage du changelog",
+        "it": "Rimossa la devDependency mocha ridondante (fornita transitivamente da @iobroker/testing) e changelog ripulito",
+        "es": "Se eliminó la devDependency redundante mocha (proporcionada transitivamente por @iobroker/testing) y se limpió el changelog",
+        "pl": "Usunięto zbędną zależność deweloperską mocha (dostarczaną tranzytywnie przez @iobroker/testing) i uporządkowano changelog",
+        "uk": "Видалено надлишкову залежність mocha (надається транзитивно через @iobroker/testing), очищено список змін",
+        "zh-cn": "移除了多余的 mocha 开发依赖（由 @iobroker/testing 传递提供）并清理了更新日志"
+      },
       "0.5.6": {
         "en": "Re-added mocha to devDependencies for test runner binary execution",
         "de": "Mocha zu devDependencies für die Test-Runner-Ausführung wieder hinzugefügt",
@@ -15,19 +28,6 @@
         "pl": "Ponownie dodano mocha do devDependencies do wykonywania testów",
         "uk": "Повторно додано mocha до devDependencies для виконання тестового ранера",
         "zh-cn": "重新添加 mocha 到 devDependencies 以便测试运行程序执行"
-      },
-      "0.5.5": {
-        "en": "Updated minimum Node.js requirement to 22.12.0 and upgraded tsconfig node22 rules",
-        "de": "Mindestanforderung für Node.js auf 22.12.0 aktualisiert und tsconfig node22-Regeln aktualisiert",
-        "ru": "Минимальное требование к Node.js обновлено до 22.12.0, обновлены правила tsconfig node22",
-        "pt": "Requisito mínimo do Node.js atualizado para 22.12.0 e regras tsconfig node22 atualizadas",
-        "nl": "Minimale Node.js-vereiste bijgewerkt naar 22.12.0 en tsconfig node22-regels bijgewerkt",
-        "fr": "Exigence minimale Node.js mise à jour vers 22.12.0 et règles tsconfig node22 mises à jour",
-        "it": "Requisito minimo Node.js aggiornato a 22.12.0 e regole tsconfig node22 aggiornate",
-        "es": "Requisito mínimo de Node.js actualizado a 22.12.0 y reglas de tsconfig node22 actualizadas",
-        "pl": "Zaktualizowano minimalne wymaganie Node.js do 22.12.0 i zaktualizowano reguły tsconfig node22",
-        "uk": "Мінімальні вимоги do Node.js оновлено до 22.12.0, оновлено правила tsconfig node22",
-        "zh-cn": "最低 Node.js 要求更新为 22.12.0，并更新了 tsconfig node22 规则"
       },
       "0.5.4": {
         "en": "Enabled trusted publishing, upgraded to Node.js 22 minimum, updated all dependencies",
