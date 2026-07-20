@@ -119,7 +119,7 @@ sendTo('puppeteer-enhanced.0', 'pdf', {
     format: 'A4',
     printBackground: true,
     waitOption: {
-        waitForTimeout: 3000  // Wait 3 seconds for VIS to load
+        waitForSelector: '#vis_container'  // Recommended for modern Puppeteer v24+
     }
 }, (result) => {
     console.log('VIS exported to PDF with authentication');

@@ -226,7 +226,7 @@ class PuppeteerAdapter extends utils.Adapter {
         }
 
         // Wait for page to be ready
-        await page.waitForTimeout(500);
+        await new Promise(resolve => setTimeout(resolve, 500));
 
         // Check if loginHtmlPath is provided (2023 approach)
         const loginHtmlPath = options.loginHtmlPath;
@@ -241,7 +241,7 @@ class PuppeteerAdapter extends utils.Adapter {
             this.log.info('Login HTML loaded');
 
             // Wait for login form to process (2023 API: 5s → 2s for speed)
-            await page.waitForTimeout(2000);
+            await new Promise(resolve => setTimeout(resolve, 2000));
 
             // Navigate to target URL
             await page.goto(url, {
@@ -251,7 +251,7 @@ class PuppeteerAdapter extends utils.Adapter {
             this.log.info('[Screenshot] Navigation successful after HTML login');
 
             // Wait for page to load completely (2023 API: 10s → 3s for speed)
-            await page.waitForTimeout(3000);
+            await new Promise(resolve => setTimeout(resolve, 3000));
 
           } catch (htmlError) {
             this.log.warn(`HTML login failed: ${htmlError.message} - trying standard login`);
@@ -309,7 +309,7 @@ class PuppeteerAdapter extends utils.Adapter {
             // Wait for page to stabilize after login (2023 API: 10s → 5s)
             this.log.debug('Waiting 5s for page stabilization...');
             try {
-              await page.waitForTimeout(5000);
+              await new Promise(resolve => setTimeout(resolve, 5000));
             } catch (waitErr) {
               this.log.warn(`Wait timeout error: ${waitErr.message}`);
             }
@@ -323,13 +323,17 @@ class PuppeteerAdapter extends utils.Adapter {
         }
 
         // Additional wait if specified
-        if (waitMethod && waitMethod in page) {
-          await page[waitMethod](waitParameter);
+        if (waitMethod) {
+          if (waitMethod in page && typeof page[waitMethod] === 'function') {
+            await page[waitMethod](waitParameter);
+          } else if (waitMethod === 'waitForTimeout' || waitMethod === 'delay') {
+            await new Promise(resolve => setTimeout(resolve, waitParameter));
+          }
         }
 
         // Wait for web components to render (for ioBroker.webui etc.)
         this.log.debug('Waiting for web components...');
-        await page.waitForTimeout(2000);
+        await new Promise(resolve => setTimeout(resolve, 2000));
 
         // Check if page is still open
         if (page.isClosed()) {
@@ -539,7 +543,7 @@ class PuppeteerAdapter extends utils.Adapter {
             this.log.info('Login HTML loaded');
             
             // Wait for login form to process (2023 API)
-            await page.waitForTimeout(5000);
+            await new Promise(resolve => setTimeout(resolve, 5000));
             
           } catch (htmlError) {
             this.log.warn(`HTML login failed: ${htmlError.message} - trying standard login`);
@@ -606,9 +610,9 @@ class PuppeteerAdapter extends utils.Adapter {
       //var contentHtml = import_fs.readFileSync('E:\\iob_dubendi_afc\\DubendiAFC\\node_modules\\iobroker.puppeteer-enhanced\\operlogin.html', 'utf8');
       //await page.setContent(contentHtml);
       //await page.goto('file://E:\iob_Stansiya479\iobStansiya479\iobroker-data\operlogin.html', {waitUntil: 'networkidle2'});
-        await page.waitForTimeout(10000);
+        await new Promise(resolve => setTimeout(resolve, 10000));
         await page.goto(url, { waitUntil: 'networkidle2' });
-        await page.waitForTimeout(10000);
+        await new Promise(resolve => setTimeout(resolve, 10000));
         const pdf = await page.pdf(pdfOptions);
         
         // Write PDF to file
