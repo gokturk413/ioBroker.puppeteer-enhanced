@@ -492,6 +492,27 @@ setState('puppeteer-enhanced.0.url', 'https://www.google.com', false); // Trigge
 * Added `maxParallelProcesses` setting to limit how many screenshots/PDFs are rendered in parallel; further requests are queued (set to 1 on low-memory devices like a Raspberry Pi to avoid running out of RAM)
 * Fixed screenshot handling for object messages, where the `url` was not read from the message
 
+### 0.5.7 (2026-07-20)
+* Removed redundant mocha devDependency (provided transitively by @iobroker/testing) — fixes repochecker E0063
+* Removed unpublished 0.5.5 entry from io-package.json news — fixes repochecker E2004
+* Regenerated package-lock.json with mocha hoisted to top-level
+
+### 0.5.6 (2026-07-20)
+* Re-added mocha to devDependencies for test runner binary execution in CI
+
+### 0.5.5 (2026-07-20)
+* Updated minimum Node.js requirement to 22.12.0 for Puppeteer 25.x compatibility
+* Upgraded @tsconfig/node22 to 22.0.5
+
+### 0.5.4 (2026-07-20)
+* Enabled trusted publishing (removed npm-token from workflow)
+* Upgraded minimum Node.js requirement to 22
+* Updated all dependencies (puppeteer 25.x, typescript 7.x, rimraf 6.x)
+* Removed redundant eslint and mocha devDependencies
+
+### 0.5.3 (2026-07-20)
+* Updated admin i18n translations, repository checker compatibility, and workflow build scripts
+
 ### 0.5.2 (2026-07-20)
 * Updated repository casing to ioBroker.puppeteer-enhanced and added usage examples in README.md
 

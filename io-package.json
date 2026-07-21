@@ -1,8 +1,60 @@
 {
   "common": {
     "name": "puppeteer-enhanced",
-    "version": "0.5.2",
+    "version": "0.5.7",
     "news": {
+      "0.5.7": {
+        "en": "Removed redundant mocha devDependency (provided transitively by @iobroker/testing) and cleaned up changelog",
+        "de": "Redundante mocha-devDependency entfernt (transitiv über @iobroker/testing bereitgestellt) und Changelog bereinigt",
+        "ru": "Удалена избыточная зависимость mocha (предоставляется транзитивно через @iobroker/testing), очищен список изменений",
+        "pt": "Removida a devDependency redundante mocha (fornecida transitivamente por @iobroker/testing) e changelog limpo",
+        "nl": "Overbodige mocha-devDependency verwijderd (transitief geleverd door @iobroker/testing) en changelog opgeschoond",
+        "fr": "Suppression de la devDependency mocha redondante (fournie de manière transitive par @iobroker/testing) et nettoyage du changelog",
+        "it": "Rimossa la devDependency mocha ridondante (fornita transitivamente da @iobroker/testing) e changelog ripulito",
+        "es": "Se eliminó la devDependency redundante mocha (proporcionada transitivamente por @iobroker/testing) y se limpió el changelog",
+        "pl": "Usunięto zbędną zależność deweloperską mocha (dostarczaną tranzytywnie przez @iobroker/testing) i uporządkowano changelog",
+        "uk": "Видалено надлишкову залежність mocha (надається транзитивно через @iobroker/testing), очищено список змін",
+        "zh-cn": "移除了多余的 mocha 开发依赖（由 @iobroker/testing 传递提供）并清理了更新日志"
+      },
+      "0.5.6": {
+        "en": "Re-added mocha to devDependencies for test runner binary execution",
+        "de": "Mocha zu devDependencies für die Test-Runner-Ausführung wieder hinzugefügt",
+        "ru": "Повторно добавлен mocha в devDependencies для выполнения бинарных тестов",
+        "pt": "Re-adicionado mocha a devDependencies para execução do runner de testes",
+        "nl": "Mocha opnieuw toegevoegd aan devDependencies voor uitvoering van test-runner",
+        "fr": "Mocha ré-ajouté à devDependencies pour l'exécution du runner de test",
+        "it": "Re-aggiunto mocha a devDependencies per l'esecuzione del test runner",
+        "es": "Se volvió a agregar mocha a devDependencies para la ejecución del ejecutor de pruebas",
+        "pl": "Ponownie dodano mocha do devDependencies do wykonywania testów",
+        "uk": "Повторно додано mocha до devDependencies для виконання тестового ранера",
+        "zh-cn": "重新添加 mocha 到 devDependencies 以便测试运行程序执行"
+      },
+      "0.5.4": {
+        "en": "Enabled trusted publishing, upgraded to Node.js 22 minimum, updated all dependencies",
+        "de": "Vertrauenswürdiges Veröffentlichen aktiviert, auf Node.js 22 Minimum aktualisiert, alle Abhängigkeiten aktualisiert",
+        "ru": "Включена доверенная публикация, обновлён до Node.js 22 минимум, обновлены все зависимости",
+        "pt": "Publicação confiável ativada, atualizado para Node.js 22 mínimo, todas as dependências atualizadas",
+        "nl": "Vertrouwde publicatie ingeschakeld, bijgewerkt naar Node.js 22 minimum, alle afhankelijkheden bijgewerkt",
+        "fr": "Publication de confiance activée, mise à jour vers Node.js 22 minimum, toutes les dépendances mises à jour",
+        "it": "Pubblicazione affidabile abilitata, aggiornato a Node.js 22 minimo, tutte le dipendenze aggiornate",
+        "es": "Publicación de confianza habilitada, actualizado a Node.js 22 mínimo, todas las dependencias actualizadas",
+        "pl": "Włączono zaufaną publikację, zaktualizowano do Node.js 22 minimum, zaktualizowano wszystkie zależności",
+        "uk": "Увімкнено довірену публікацію, оновлено до Node.js 22 мінімум, оновлено всі залежності",
+        "zh-cn": "启用可信发布，升级至 Node.js 22 最低版本，更新所有依赖项"
+      },
+      "0.5.3": {
+        "en": "Updated admin i18n translations, repository checker compatibility, and workflow build scripts",
+        "de": "Admin-i18n-Übersetzungen, Repository-Checker-Kompatibilität und Workflow-Build-Skripte aktualisiert",
+        "ru": "Обновлены переводы admin i18n, совместимость с проверкой репозитория и скрипты сборки рабочего процесса",
+        "pt": "Traduções i18n admin atualizadas, compatibilidade do verificador de repositório e scripts de compilação de fluxo de trabalho",
+        "nl": "Admin i18n vertalingen, repository checker compatibiliteit en workflow build scripts bijgewerkt",
+        "fr": "Traductions admin i18n, compatibilité du vérificateur de référentiel et scripts de génération de flux de travail mis à jour",
+        "it": "Traduzioni admin i18n, compatibilità con il verificatore di repository e script di build del flusso di lavoro aggiornati",
+        "es": "Traducciones i18n admin actualizadas, compatibilidad con el comprobador de repositorios y scripts de creación de flujos de trabajo",
+        "pl": "Zaktualizowano tłumaczenia admin i18n, zgodność sprawdzania repozytorium i skrypty budowania przepływu pracy",
+        "uk": "Оновлено переклади admin i18n, сумісність з перевіркою репозиторію та скрипти збірки робочого процесу",
+        "zh-cn": "更新了 admin i18n 翻译、存储库检查器兼容性和工作流构建脚本"
+      },
       "0.5.2": {
         "en": "Updated repository casing to ioBroker.puppeteer-enhanced and added usage examples in README.md",
         "de": "Repository-Schreibweise auf ioBroker.puppeteer-enhanced aktualisiert und Verwendungsbeispiele in README.md hinzugefügt",
