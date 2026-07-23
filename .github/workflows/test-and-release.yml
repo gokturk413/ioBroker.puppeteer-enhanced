@@ -48,6 +48,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           os: ${{ matrix.os }}
+          build: 'true'
           install-command: 'npm install'
 
   # Deploys the final package to NPM
@@ -72,6 +73,7 @@ jobs:
         with:
           node-version: '24.x'
           install-command: 'npm install'
+          build: 'true'
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
 
