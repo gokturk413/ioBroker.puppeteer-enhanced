@@ -139,6 +139,8 @@
     "readme": "https://github.com/gokturk413/ioBroker.puppeteer-enhanced/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
+    "webExtension": "build/lib/web.js",
+    "webExtendable": false,
     "adminUI": {
       "config": "json"
     },
@@ -220,7 +222,9 @@
     "useExternalBrowser": false,
     "executablePath": "",
     "webUsername": "",
-    "webPassword": ""
+    "webPassword": "",
+    "webInstance": "*",
+    "maxParallelProcesses": 1
   },
   "objects": [],
   "instanceObjects": [
